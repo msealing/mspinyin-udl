@@ -1,0 +1,9 @@
+zhongguo,1,中国
+nihao,1,你好
+chongqing,1,重庆
+yinhang,1,银行
+zuozhanjihua,1,作战计划
+juese,1,角色
+chuli,1,处理
+yinyue,1,音乐
+jinxingshujufenxi,1,进行数据分析

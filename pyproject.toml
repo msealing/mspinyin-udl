@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mspinyin-udl"
+version = "0.1.0"
+description = "把微软拼音导出的私有词库（ChsPinyinUDL.dat / ChsPinyinIH.dat）转换成 Rime、通用文本、微软自定义短语等多种格式"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "mspinyin-udl contributors" }]
+keywords = ["microsoft-pinyin", "ime", "pinyin", "rime", "dictionary", "chinese"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Natural Language :: Chinese (Simplified)",
+  "Topic :: Text Processing :: Linguistic",
+]
+
+[project.urls]
+Homepage = "https://github.com/msealing/mspinyin-udl"
+Issues = "https://github.com/msealing/mspinyin-udl/issues"
+
+[project.scripts]
+mspinyin-udl = "mspinyin_udl.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mspinyin_udl = ["py.typed"]

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# 输出
+out/
+*.dict.yaml
+!examples/*.dict.yaml
+
+# 本机导出的真实词库（不要提交个人数据）
+ChsPinyin*.dat
+*.dat.bak
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store

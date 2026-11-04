@@ -1,0 +1,19 @@
+# Rime 词典，由微软拼音词库转换（mspinyin-udl）
+---
+name: demo
+version: "1.0"
+sort: by_weight
+columns:
+  - text
+  - code
+  - weight
+...
+中国	zhong guo	100
+你好	ni hao	100
+重庆	chong qing	100
+银行	yin hang	100
+作战计划	zuo zhan ji hua	100
+角色	jue se	100
+处理	chu li	100
+音乐	yin yue	100
+进行数据分析	jin xing shu ju fen xi	100
